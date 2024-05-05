@@ -56,10 +56,10 @@ internal class Program
 
         //PROGRAMA
         PopularEstruturas();
-        Console.WriteLine("Numeros que NÃO repetem da PILHA:");
+        Console.WriteLine("Numeros da PILHA que NÃO repetem NA FILA:");
         pilha.Print(false);
 
-        Console.WriteLine("\nNumeros que NÃO se repetem na FILA");
+        Console.WriteLine("\nNumeros da FILA que NÃO repetem na PILHA:");
         fila.Print(false);
 
         Console.WriteLine("\n\nNumeros repetidos:");
